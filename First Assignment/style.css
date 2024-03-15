@@ -1,0 +1,178 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%;
+}
+
+body {
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: #e70e0e7e;
+}
+.logo {
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.navigation a:hover {
+    background: #000000;
+    color: #f9f9f9;
+}
+
+#home {
+    background: linear-gradient(-45deg,);
+}
+
+#skills {
+    background: linear-gradient(-45deg,);
+}
+
+#projects {
+    background: linear-gradient(-45deg,);
+}
+
+#contact {
+    background: linear-gradient(-45deg,);
+}
+
+section {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0c0f21;
+        font-weight: 700;
+        color: #f9f9f9;
+        padding: 0 10%;
+}
+
+.home {
+    max-width: 700px;
+}
+
+.home h2 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.home h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0e97e7;
+}
+
+.home p {
+    font-size: 16px;
+}
+
+.skills h2 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.skills p {
+    font-size: 128px;
+    color: aquamarine;
+}
+section:nth-child(odd) {
+    background-color: #261a48;
+}
+
+.project {
+    font-size: 128px;
+    display: flex;
+    justify-content: center;
+}
+
+.project a {
+    color: rgb(215, 176, 57);
+}
+
+.projects h2 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.contact h2 {
+    font-size: 40px;
+}
+
+input {
+    width: 70%;
+    font-size: 16px;
+    padding: 16px 16px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 70%;
+    font-size: 16px;
+    padding: 16px 16px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 16px 16px;
+    text-align: center;
+    display: flex;
+}
+
+button:hover {
+    opacity: 80%;
+}
+
+.footer {
+    background-color: #e70e0e;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.social a {
+    color: #000000;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
